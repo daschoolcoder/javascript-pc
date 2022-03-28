@@ -1,2 +1,2 @@
 let pc = prompt("hi im a pc");
-if (pc = alexa) { alert(¨Sorry. Alexa isn´t availible yet :( }
+if (pc = alexa) { alert("Sorry. Alexa isn´t availible yet :(") }
