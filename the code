@@ -1,2 +1,50 @@
 let pc = prompt("hi im a pc")
-;alert("did it work")
+;if (pc == "alexa")
+{let abc = prompt("hi im an alexa");let text;if(abc == "help") {text ="im an alexa i can do many things try search to search or game";} else if (abc == "game")
+
+ { let chose_game = prompt("which game would you like? or a quiz dungeon quest (out of order)");
+
+ (chose_game == "dungeon quest");  { let dq = prompt("you are on a quest to slay a evil dragon terrorising the village! you are at floor 1 and see 4 slimes what do you do type fight or flee to continue");let text;if(dq == "flee") { bad_ending = "you run away from the dungeon and everyone is disapointed in you (bad ending)";} else if (dq == "fight") { fight = "you kill 2 slimes and the remaning do 14 damage to you ";} let s1 = prompt("stage 2 there are 13 slimes what wepon do you use? a bow a sword or magic or do you wish to leave");let part2;if (s1 == "bow") { part2 = "you use the bow to attack them from afar and take no damage well done ";} else if (s1 == "sword") { part2 = "you charge at the enemy and take 7 damgage ";} else if (s1 == "magic") { part2 = "you use a simple spell to burn the slimes but tae 11 rebound damage :( )";} let s2 = prompt("to be continued...") } }  
+
+else if (abc == "search") { let url = prompt("ok enter website name");
+
+let url2 = prompt(" ok is it under .com .net .gov ect");
+
+window.location.href = "https://" + url + url2;} else if (abc == "cool math") { window.location.href = "https://coolmathgames.com";} else if (abc == "how to code") { window.location.href = "https://javascript.com/try";} else if (abc == "code website") { window.location.href = "https://sites.google.com/kellerisd.com/keller-java-script-site/the-codes/alexa"}
+
+else if(abc == "auto clicker") { function handler(event) {setInterval(function(){var element=event.target; element.click(); var dispatchMouseEvent = function(target, var_args) {  var e = document.createEvent("MouseEvents");    e.initEvent.apply(e, Array.prototype.slice.call(arguments, 1));  target.dispatchEvent(e);};dispatchMouseEvent(element, 'mouseover', true, true);dispatchMouseEvent(element, 'mousedown', true, true);dispatchMouseEvent(element, 'click', true, true);dispatchMouseEvent(element, 'mouseup', true, true); }, 1);};document.body.addEventListener('mousemove',handler,false);}
+
+else if (abc == "tell me a joke") { joke = "YOUR MOM LOLLL XD XD XD XD XD!!!!!!!!!!! LOLLLLLLLLLLL XDDDDDDDDDD !!!!!!!!!!!!!!!";}
+
+else if (abc == "nepali") { nepali = "लोल यौं ठौगठ थेरे वाउल्द बे ए सेक्रेट हेरे ड";}
+
+else if (abc == "robux") { let robux = prompt("how much robux do you want?");let text;if (robux == "") { text = "no robux for you :("} else { text = "adding  " + robux + " to your account";} ;}
+
+else if (abc == "") { text = null}
+
+else if (abc == "blooket") { window.location.href = "https://blooket.com/play ";}else if (abc == "gimkit") { window.location.href = "https://gimkit.com/join";}else if (abc == "google classroom") { window.location.href = "https://classroom.google.com/h";} else if (abc == "prodigy") { window.location.href = "https://sso.prodigygame.com/game/login?rid=e1a993ec-78ee-4c52-bfb6-a99b083a3735";} else if (abc == "dream box") { window.location.href = "https://play.dreambox.com/student/dbl?back=https%3A%2F%2Fplay.dreambox.com%2Fdashboard%2Flogin";}     else if (abc == "view code") { text = "place_holder";}
+
+else if (abc == "code editor") { window.location.href = "https://jsfiddle.net/  "} else if (abc == "canvas") { window.locaton.href = "https://kellerisd.instructure.com/?login_success=1"} else if (abc == "soviet") { alert("ЫЩМШУЕ КУАЩКЬ ШЫ ШТУМШЕШИДУ ОЩШТ ГЫ ШТ Ф ТУЦ ГТШЕУВ ЫЩМШУЕ ТФЕШЩТ!!!!!!!!!!!");alert("ОЩШТ ГЫ ШТ Ф ТУЦ ГТШЕУВ КУЗГИДШС НЩГ ЗУЫЕ");window.location.href = "https://www.youtube.com/watch?v=Rk7XHiDIOrU";} 
+
+else if (abc == "hot keys") { text = "the hot keys are dream box, code editor ,canvas,cool math, prodigy,soviet,nepali,blooket,gimkit,google classroom ,how to code,code website,youtube"} else if (abc == "youtube") { window.location.href = "https://youtube.com";}
+else if (abc == "calculator") {
+const operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+const number1 = parseFloat(prompt('Enter first number: '));
+const number2 = parseFloat(prompt('Enter second number: '));
+
+let result;
+
+if (operator == '+') {
+    result = number1 + number2;
+}
+else if (operator == '-') {
+    result = number1 - number2;
+}
+else if (operator == '*') {
+    result = number1 * number2;
+}
+else {
+    result = number1 / number2;}
+alert("ok showing results from " + number1 + " " + operator + " " + number2 + " = " +result );}
+else { text = "sorry but that was not in my code go to this website to find out more ----> https://sites.google.com/kellerisd.com/keller-java-script-site/the-codes/alexa";} }
