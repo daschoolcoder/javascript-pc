@@ -1,2 +1,3 @@
-//needs html for moniter befour the javascript codes
+//needs html for moniter before the javascript codes
 let pc = prompt("hi im a pc");
+if (pc = alexa) {alert(¨Sorry. Alexa isn´t availible yet :( };
