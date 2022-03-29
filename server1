@@ -20,4 +20,4 @@ result = number1 * number2;
 else {
 result = number1 / number2;
 }
-alert(result)
+alert(result) }
