@@ -1,6 +1,6 @@
 pc = prompt("I'm a PC. What would you like to do?");
 if (pc == "alexa") { alert("Alexa isn't availible yet") ;}
-if (pc == "calculator") { // program for a simple calculator
+if (pc == "calculator") {
 
 const operator = prompt('ok enter a operator ( either +, -, * or / ): ');
 
