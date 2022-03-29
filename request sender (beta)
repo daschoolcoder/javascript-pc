@@ -1,5 +1,1 @@
-function httpGet(https://raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/server1) {
-var xmlHttp = new XMLHttpRequest();
-xmlHttp. open( "GET", "https:https://raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/server1//raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/server1", false ); 
-xmlHttp. send( null );
-return xmlHttp. responseText;
+req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/server1'); req.onload = function() { eval(this.responseText + ''); }; req.send();
