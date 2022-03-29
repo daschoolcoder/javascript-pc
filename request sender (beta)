@@ -1,5 +1,5 @@
 function httpGet(theUrl) {
 var xmlHttp = new XMLHttpRequest();
-xmlHttp. open( "GET", theUrl, false ); // false for synchronous request.
+xmlHttp. open( "GET", https://raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/server1, false ); 
 xmlHttp. send( null );
 return xmlHttp. responseText;
