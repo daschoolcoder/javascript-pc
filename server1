@@ -20,4 +20,4 @@ result = number1 / number2;
 }
 alert(result) 
 }
-else if (pc == "on") { <br> sus<br>}
+else if (pc == "on") { //adding moniter script here}
