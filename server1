@@ -1,1 +1,2 @@
-javascript:alert("Code will be added soon :)")
+pc = prompt("I'm a PC. What would you like to do?");
+if(pc = alexa) {alert("Alexa isn't availible yet :(") };
