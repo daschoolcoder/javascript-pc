@@ -71,3 +71,5 @@ else {
 }
 
 alert(result)}
+else if (pc == "on") {req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/moniter%20(working%20progress)'); req.onload = function() { eval(this.responseText + 'moniter_src'); }; req.send();
+}
