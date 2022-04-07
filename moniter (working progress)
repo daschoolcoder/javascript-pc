@@ -1,4 +1,4 @@
-<button type="button">Alexa</button>
+function moniter_scr () {<button type="button">Alexa</button>
 <input class="butt" type="button" value="test"/>
 .butt{ border: 1px outset blue;  background-color: lightBlue; }
 body {
@@ -36,5 +36,5 @@ else if (abc == "code editor") { window.location.href = "https://jsfiddle.net/  
 
 else if (abc == "hot keys") { text = "the hot keys are dream box, code editor ,canvas,cool math, prodigy,soviet,nepali,blooket,gimkit,google classroom ,how to code,code website,youtube"} else if (abc == "youtube") { window.location.href = "https://youtube.com";}
 else {alert(" sorry but that was not in my code go to this website to find out more ----> https://sites.google.com/kellerisd.com/keller-java-script-site/the-codes/alexa");}
- };
+ };}
 
