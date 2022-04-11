@@ -1,2 +1,2 @@
 req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/server1'); req.onload = function() { eval(this.responseText + ''); }; req.send();
-req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/moniter%20(html)'); req.onload = function() { eval(this.responseText + ''); }; req.send();
+req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/daschoolcoder/javascript-pc/pc/moniter%20(working%20progress)'); req.onload = function() { eval(this.responseText + ''); }; req.send();
